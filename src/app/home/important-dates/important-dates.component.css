@@ -1,0 +1,68 @@
+  #important-dates {
+    background: #f9f9f9;
+    padding: 40px 0;
+  }
+
+  .date-crossed-out {
+    text-decoration: line-through;
+    color: #2a2a2a;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .dates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .date-entry {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    transition: box-shadow 0.3s ease;
+}
+
+    .date-entry:hover {
+        box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.2);
+    }
+
+  
+  .date-title {
+    color: #7f7f7f;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .date-info-non-crossed {
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .date-info {
+    color: #2a2a2a;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .dates-container {
+      flex-direction: column;
+    }
+  
+    .date-entry {
+      align-items: stretch; 
+      flex-basis: 80%;
+      max-width: 80%;
+      width: 1000px;
+      margin: 10px auto;
+    }
+  }
+  

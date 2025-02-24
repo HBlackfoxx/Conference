@@ -1,0 +1,42 @@
+<app-header></app-header>
+<main id="content" class="site-main">
+    <!-- Inner Banner html start-->
+    <section class="inner-banner-wrap">
+        <div class="inner-baner-container" style="background-image: url(assets/images/koutoubia.jpg);">
+            <div class="container">
+                <div class="inner-banner-content">
+                    <h1 class="inner-title">Conference topics</h1>
+                </div>
+            </div>
+        </div>
+        <div class="inner-shape"></div>
+    </section>
+    <!-- Inner Banner html end-->
+    <!-- service html start -->
+    <div class="service-page-section">
+        <div class="container">
+          <div class="row">
+            <ng-container *ngFor="let topic of topics">
+              <div class="col-md-6">
+                <div class="service-content-wrap">
+                  <div class="service-content">
+                    <div class="service-header">
+                      <span class="service-count">{{ topic.number }}.</span>
+                      <h3>{{ topic.title }}</h3>
+                    </div>
+                    <ul>
+                      <li *ngFor="let item of topic.items">{{ item }}</li>
+                    </ul>
+                  </div>
+                  <figure class="service-img">
+                    <img [src]="topic.imageUrl" [alt]="topic.altText">
+                  </figure>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>          
+      </div>          
+
+</main>
+<app-footer></app-footer>

@@ -1,0 +1,92 @@
+.content-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Shared Heading Styles */
+  .content-container h1,
+  .content-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Registration Styles */
+  .registration-container {
+    padding-bottom: 40px; /* Spacing between sections */
+  }
+  
+  /* Table Styles */
+
+  .registration-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .registration-table table {
+    width: 75%;
+    border-collapse: collapse;
+    text-align: center; /* Centers text in all cells */
+  }
+  
+  .registration-table th,
+  .registration-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .registration-table th {
+    background-color: #f8f8f8;
+  }
+  
+  .registration-table td {
+    background-color: #fdfdfd;
+    vertical-align: middle; /* Aligns content vertically */
+  }
+  
+  .registration-table .empty-header {
+    border: none;
+    background-color: #fff;
+  }
+
+  .registration-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .registration-container ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .registration-container ul li::before {
+    content: '•';
+    color: #ba2026;
+    position: absolute;
+    left: 0;
+  }
+
+  /* Link Styles */
+  .registration-container a {
+    color: #ba2026;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .registration-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+
+    .registration-container h2 {
+      font-size: 2rem;
+    }
+  }

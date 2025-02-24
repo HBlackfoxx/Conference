@@ -1,0 +1,107 @@
+<header id="masthead" class="site-header header-primary">
+    <!-- header html start -->
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 d-none d-lg-block">
+                    <div class="header-contact-info">
+                        <ul>
+                            <li>
+                              <a href="#map"> <i class="fas fa-map-marker-alt" ></i>  BP 575, Avenue Abdelkrim Khattabi, 40000, Guéliz Marrakech</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-lg-end justify-content-between">
+                    <div class="header-social social-links">
+                        <ul>
+                            <li><a href="https://www.facebook.com/profile.php?id=61557315712756"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/sil24_ensa_m/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/international-conference-on-industrial-and-logistics-systems/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-header"  #stickyMenu [class.sticky] = "sticky" >
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="site-identity">
+                <h1 class="site-title">
+                    <a href="" routerLink="/home">
+                        <img class="white-logo" src="assets/images/White-logo.png" alt="logo">
+                        <img class="black-logo" src="assets/images/color-logo.png" alt="logo">
+                    </a>
+                </h1>
+            </div>
+            <button class="mobile-menu-toggle d-lg-none" (click)="toggleMobileMenu()">
+                <div class="hamburger-menu" [class.change]="mobileMenuOpen">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+            </button>  
+            <div class="main-navigation d-none d-lg-block" >
+                <nav id="navigation" class="navigation">
+                    <ul>
+                        <li class="menu-item-has-children">
+                            <a href="#about-us">About us</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#speakers-section">Speakers</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#" routerLink="/call_for_paper">Call for papers</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#" routerLink="/committee" >Committees</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#" routerLink="/registration">Registration</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#" routerLink="/submission">Submission</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="assets/pdf/Programme_SIL_24.pdf">Program</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#contact-us">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="mobile-navigation" [ngClass]="{'open': mobileMenuOpen}">
+                <nav class="d-lg-none">
+                  <ul id="mobile-menu" class="mobile-menu">
+                        <li>
+                            <a href="#about-us">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#speakers-section">Speakers</a>
+                        </li>
+                        <li>
+                            <a href="#" routerLink="/call_for_paper">Call for papers</a>
+                        </li>
+
+                        <li>
+                            <a href="#" routerLink="/committee" >Committees</a>
+                        </li>
+                        <li>
+                            <a href="#" routerLink="/registration">Registration</a>
+                        </li>
+                        <li>
+                            <a href="#" routerLink="/submission">Submission</a>
+                        </li>
+                        <li>
+                            <a href="assets/pdf/Programme_SIL_24.pdf">Program</a>
+                        </li>
+                        <li>
+                            <a href="#contact-us">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>

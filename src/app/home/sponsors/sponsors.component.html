@@ -1,0 +1,18 @@
+<main id="content" class="site-main">
+    <div class="carrer-page-section" id="partners">
+        <div class="container">
+            <div class="about-service-wrap">
+                <div class="row" data-aos="fade" data-aos-duration="1000" data-aos-offset="850">
+                    <div class="section-heading text-center">
+                        <h5 class="dash-style">Our PARTNERS</h5>
+                    </div>
+                </div>
+                <div class="row sponsor-row text-center" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="850">
+                    <div class="col-lg-2 col-md-4 sponsor-col" *ngFor="let sponsor of sponsors">
+                        <img [src]="sponsor.imageUrl" alt="{{ sponsor.name }}" class="sponsor-img">
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+</main>

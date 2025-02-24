@@ -1,0 +1,113 @@
+.chair-row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.centered-row {
+  justify-content: center;
+}
+
+.chair-card {
+  background-color: rgba(174, 148, 109, 0.8);
+  padding: 1rem;
+  color: #000000;
+  border-radius: 10px;
+  border: 2px solid rgba(129, 129, 129, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-basis: calc(29% - 60px); /* Adjust for 4 cards in a row */
+  max-width: calc(29% - 60px); /* Adjust for 4 cards in a row */
+  text-align: center;
+}
+
+
+.chair-card-second {
+  background-color: rgba(174, 148, 109, 0.8);
+  padding: 1rem;
+  color: #000000;
+  border-radius: 10px;
+  border: 2px solid rgba(129, 129, 129, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-basis: calc(30% - 60px); /* Adjust for 4 cards in a row */
+  max-width: calc(30% - 60px); /* Adjust for 4 cards in a row */
+  text-align: center;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.chair-card:hover{
+  transform: translateY(-5px);
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.chair-card-second:hover{
+  transform: translateY(-5px);
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.chair-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.chair-name {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.chair-email {
+  color: #000000;
+  text-decoration: none;
+  font-size: 0.74rem;
+}
+
+.chair-email:hover {
+  color: #9e1f63;
+}
+
+
+
+@media (max-width: 991px) {
+  .chair-row {
+    margin-bottom: 0px;
+  }
+  .chair-card,
+  .chair-card-second {
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    margin: 10px;
+  }
+
+  .chair-title,
+  .chair-name,
+  .chair-email {
+    text-align: center;
+    word-break: break-word;
+  }
+}
+
+
+  @media (max-width: 767px) {
+    .chair-row {
+      margin-bottom: 0px;
+    }
+    .chair-card,
+    .chair-card-second {
+      flex-basis: 100%; /* Full width for each card */
+      max-width: 100%; /* Full width for each card */
+      margin: 10px 0; /* Adjust margin to only have vertical spacing */
+    }
+  
+    .chair-title,
+    .chair-name,
+    .chair-email {
+      text-align: center;
+      word-break: break-word;
+    }
+  }

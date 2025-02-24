@@ -1,0 +1,62 @@
+.image-carousel {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  
+  .carousel-slide.active {
+    display: block;
+    position: relative;
+  }
+  
+  .slide-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .prev-button,
+  .next-button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
+  .prev-icon::before,
+  .next-icon::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+  }
+  
+  .prev-icon::before {
+    content: '\f053'; /* FontAwesome previous icon */
+  }
+  
+  .next-icon::before {
+    content: '\f054'; /* FontAwesome next icon */
+  }
+  

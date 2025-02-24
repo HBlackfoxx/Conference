@@ -1,0 +1,68 @@
+.content-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Shared Heading Styles */
+  .content-container h1,
+  .content-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Submission Styles */
+  .submission-container p {
+    text-align: justify;
+  }
+
+  .submission-container b {
+    font-size: 17px;
+  }
+
+  .submission-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .submission-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .submission-container ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .submission-container ul li::before {
+    content: '•';
+    color: #ba2026;
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Link Styles */
+  .submission-container a{
+    color: #ba2026;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .submission-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+
+  
+    .submission-container h2 {
+      font-size: 2rem;
+    }
+  }
+  

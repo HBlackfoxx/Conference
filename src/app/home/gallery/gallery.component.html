@@ -1,0 +1,32 @@
+
+
+<main id="content" class="site-main">
+    <div class="container" id="gallery">
+        <div class="section-heading">
+            <div class="row no-gutters align-items-end">
+                <div class="row">
+                    <div class="section-heading text-center" data-aos="fade" data-aos-duration="1000">
+                        <h5 class="dash-style">Our GALLERY</h5>
+                        <h2>Explore memorable moments from past events through our gallery.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>        
+
+
+        <div class="image-carousel slide" data-ride="carousel" data-aos="fade-zoom-in" data-aos-duration="1500">
+            <div class="carousel-container">
+              <div *ngFor="let image of carouselImages; let i = index" class="carousel-slide" [class.active]="i === currentIndex">
+                <img [src]="image" class="slide-image" alt="Slide {{ i + 1 }}">
+              </div>
+            </div>
+            <button class="prev-button" (click)="moveTo('prev')">
+              <span class="prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="next-button" (click)="moveTo('next')">
+              <span class="next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+          
+    </div>
+</main>

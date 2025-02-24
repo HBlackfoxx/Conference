@@ -1,0 +1,53 @@
+<app-header></app-header>
+<main id="content" class="site-main">
+    <!-- Inner Banner html start-->
+    <section class="inner-banner-wrap">
+        <div class="inner-baner-container" style="background-image: url(assets/images/morocco.jpg);">
+            <div class="container">
+                <div class="inner-banner-content">
+                    <h1 class="inner-title">Venue</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="inner-shape"></div>
+    </section>
+
+    <div class="single-page-section">
+        <div class="container">
+            <figure class="single-feature-img">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" >
+                        <div class="carousel-item active" [class.active]="index === 0">
+                            <img src="assets/images/nafora.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" [class.active]="index === 1">
+                            <img src="assets/images/koutoubia.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" [class.active]="index === 2">
+                            <img src="assets/images/medina.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item " [class.active]="index === 3" >
+                            <img src="assets/images/marrakech.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev"  role="button" data-slide="prev" (click)="previous()">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next"  role="button" data-slide="next" (click)="next()">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </figure>
+            <div class="page-content">
+                <p><span>Morocco</span>, where Africa and Europe meet, is a country filled with history, diverse cultures, and stunning scenery. From the golden Sahara Desert to the rugged Atlas Mountains, Morocco effortlessly mixes tradition and modern life. Bustling markets, known as souks, burst with lively colors and the delightful smells of spices, immersing visitors in a sensory journey. The country's rich culture shines through in its buildings, food, and welcoming spirit, making it an enchanting place for travelers and a perfect host for global gatherings.</p>
+                <p><span>Marrakech</span>, in the heart of Morocco, is a special city that showcases the country's rich history. Known as the "Red City" because of its unique terracotta buildings, Marrakech beautifully blends old and new influences. The ancient medina, with its winding streets and lively Jemaa el-Fnaa square, feels like stepping into the past. Yet, Marrakech is not just about history; it also has luxurious resorts, lively art scenes, and a vibrant atmosphere. More than a mere stop, Marrakech is an exciting journey where ancient and modern come together, crafting a one-of-a-kind and enchanting vibe.</p>
+                <p>In the beautiful city of Marrakech, the 7th International Conference on Industrial and Logistics Systems <span>(SIL’24)</span> is happening. Marrakech, blending history and modernity, sets the stage for a conference all about "Cyber Physical Production and Logistics Systems." SIL’24 goes beyond a typical academic event. As researchers explore the future of industrial and logistics systems, they're not just talking - they're surrounded by Morocco's rich cultural heritage. SIL’24 in Marrakech is more than a meeting; it's a mix of old and new, tradition and technology, creating a remarkable experience that defines both the conference and the place.</p>
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>
