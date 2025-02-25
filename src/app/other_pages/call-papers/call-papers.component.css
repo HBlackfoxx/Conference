@@ -1,14 +1,89 @@
-.service-content-wrap{
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+/* General Styling */
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-heading h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #9e1f63;
+    margin-bottom: 20px;
+}
+
+/* Conference Topics Section */
+.service-content-wrap {
+    padding: 15px;
     border: 1px solid rgba(129, 129, 129, 0.15);
-    margin: 5px;
+    margin: 10px;
     border-radius: 10px;
     transition: box-shadow 0.3s ease;
+    background: white;
 }
 
 .service-content-wrap:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
-  }
+}
+
+.service-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-count {
+    background: #9e1f63;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Call for Special Sessions Section */
+.call-for-sessions {
+    background: #f9f9f9;
+    padding: 50px 0;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.call-content {
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+}
+
+.call-content h3 {
+    color: #9e1f63;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.call-content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.call-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .service-content-wrap {
+        padding: 10px;
+    }
+
+    .service-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-count {
+        font-size: 1rem;
+        padding: 6px 10px;
+    }
+}

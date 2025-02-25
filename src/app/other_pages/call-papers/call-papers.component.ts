@@ -13,10 +13,13 @@ export class CallPapersComponent {
       items: [
         'Lean Manufacturing and Logistics',
         'Six sigma, continuous improvement, competitiveness and performance',
-        'Supply chain, extended enterprise',
+        'Supply Chain Management and Extended Enterprise',
+        'Reverse Logistics and Circular Supply Chains',
         'Risk management',
-        'Project management, human factor and organization',
-        'Decision support tools and Operational Research'
+        'Project Management, Human Factors, and Organizational Behavior',
+        'Decision support tools and Operational Research',
+        'Corporate Social Responsibility (CSR)'
+
       ],
       imageUrl: 'assets/images/ilom.jpg',
       altText: 'ILoM Description'
@@ -25,12 +28,14 @@ export class CallPapersComponent {
       number: '02',
       title: 'Industrial and Logistics Information Systems (ILIS)',
       items: [
-        'Decision-making and cooperative systems',
-        'Skills and knowledge management systems',
+        'Decision-Making and Collaborative Systems',
+        'Skills and Knowledge Management Systems',
         'Business Process Management (BPM)',
         'Enterprise resource planning (ERP)',
         'Manufacturing Execution Systems (MES)',
-        'Product Life Cycle Management (PLM)'
+        'Warehouse Management Systems (WMS)',
+        'Product Life Cycle Management (PLM)',
+        'Decision Support Systems (DSS)'
       ],
       imageUrl: 'assets/images/ilis.jpg',
       altText: 'ILIS Description'
@@ -39,11 +44,13 @@ export class CallPapersComponent {
       number: '03',
       title: 'Industrial and Logistics Products and Equipment (ILPE)',
       items: [
-        'Product and process design',
-        'Reliability and maintenance of equipment',
-        'Hygiene, safety, ergonomics and environment',
-        'Product and process quality management',
-        'System engineering'
+        'Product and Process Design',
+        'Equipment Reliability and Maintenance',
+        'Health, Hygiene, Safety, Ergonomics, and Environment',
+        'Product and Process Quality Management',
+        'Systems Engineering',
+        'Material Selection and Durability',
+        'Compliance, Standardization, and Certification'
       ],
       imageUrl: 'assets/images/ilpe.jpg',
       altText: 'ilpe'
@@ -52,12 +59,16 @@ export class CallPapersComponent {
       number: '04',
       title: 'Digital Transformation of Industrial and Logistics Systems (DTILS)',
       items: [
-        'Cyber Physical System',
-        'Internet of Things',
+        'Cyber-Physical Systems',
+        'Internet of Things (IoT) and Industrial IoT (IIoT)',
         'Artificial Intelligence and Machine Learning',
         'Digital Twin and Simulation',
-        'Blockchain',
-        'Big Data'
+        'Blockchain Technology',
+        'Big Data Analytics and Decision Intelligence',
+        'Cybersecurity for Industrial and Logistics Systems',
+        'Augmented Reality (AR) and Virtual Reality (VR)',
+        'Human-Machine Collaboration and Intelligent Assistants',
+        'Sustainability and Green Digital Transformation'
       ],
       imageUrl: 'assets/images/dtils.jpg',
       altText: 'dtils'

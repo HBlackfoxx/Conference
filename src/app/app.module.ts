@@ -24,6 +24,7 @@ import { VenueComponent } from './other_pages/venue/venue.component';
 import { RegistrationSubmitionComponent } from './other_pages/registration-submition/registration-submition.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { SubmitionComponent } from './other_pages/submition/submition.component';
+import { FaqComponent } from './home/faq/faq.component';
 
 
 
@@ -51,7 +52,8 @@ import { SubmitionComponent } from './other_pages/submition/submition.component'
     VenueComponent,
     RegistrationSubmitionComponent,
     RegistrationComponent,
-    SubmitionComponent
+    SubmitionComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

@@ -65,4 +65,11 @@
       margin: 10px auto;
     }
   }
+
+  .date-info-soon {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+  }
   
