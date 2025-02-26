@@ -11,6 +11,7 @@ import {VenueComponent} from "./other_pages/venue/venue.component";
 //import { RegistrationSubmitionComponent } from './other_pages/registration-submition/registration-submition.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { SubmitionComponent } from './other_pages/submition/submition.component';
+import { SpecialCallComponent } from './other_pages/special-call/special-call.component';
 
 const routes: Routes = [
   {path:'' , component : HomeComponent},
@@ -24,7 +25,8 @@ const routes: Routes = [
   {path:'venue' , component : VenueComponent},
   //{path:'reg-sub' , component : RegistrationSubmitionComponent},
   {path:'registration' , component : RegistrationComponent},
-  {path:'submission' , component : SubmitionComponent}
+  {path:'submission' , component : SubmitionComponent},
+  {path:'special_sessions', component : SpecialCallComponent}
 ];
 
 @NgModule({

@@ -25,6 +25,7 @@ import { RegistrationSubmitionComponent } from './other_pages/registration-submi
 import { RegistrationComponent } from './registration/registration.component';
 import { SubmitionComponent } from './other_pages/submition/submition.component';
 import { FaqComponent } from './home/faq/faq.component';
+import { SpecialCallComponent } from './other_pages/special-call/special-call.component';
 
 
 
@@ -53,7 +54,8 @@ import { FaqComponent } from './home/faq/faq.component';
     RegistrationSubmitionComponent,
     RegistrationComponent,
     SubmitionComponent,
-    FaqComponent
+    FaqComponent,
+    SpecialCallComponent
   ],
   imports: [
     BrowserModule,
