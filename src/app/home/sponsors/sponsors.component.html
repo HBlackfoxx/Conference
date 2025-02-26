@@ -9,12 +9,14 @@
                 </div>
                 <div class="row sponsor-row text-center" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="850">
                     <div class="col-lg-2 col-md-4 sponsor-col" *ngFor="let sponsor of sponsors">
-                        <img [src]="sponsor.imageUrl" alt="{{ sponsor.name }}" class="sponsor-img">
+                        <a [href]="sponsor.link">
+                            <img [src]="sponsor.imageUrl" alt="{{ sponsor.name }}" class="sponsor-img">
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="become-sponsor">
-                <a href="mailto:speakers@example.com?subject=Become%20a%20Sponsor" class="button-secondary">
+                <a href="mailto:t.benazzouz@uca.ac.ma?subject=Become%20a%20Sponsor" class="button-secondary">
                   Become a Sponsor
                 </a>
             </div>   
