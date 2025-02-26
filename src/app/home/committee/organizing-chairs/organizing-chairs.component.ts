@@ -12,7 +12,7 @@ export class OrganizingChairsComponent {
     'Pr. DAHBI Samya',
     'Pr. EDDABBAH Mohamed',
     'Pr. EL BEID Said',
-    'Pr. EL HALAOUI Loubna',
+    'Pr. EL HALOUI Loubna',
     'Pr. FARAJI Hamza',
     'Pr. HATIM Anas'
   ];
