@@ -9,6 +9,11 @@ import { Component } from '@angular/core';
 export class GalleryComponent {
   currentIndex = 0;
   carouselImages = [
+    'assets/images/gallery/16.jpg',
+    'assets/images/gallery/13.png',
+    'assets/images/gallery/14.jpg',
+    'assets/images/gallery/15.png',
+    'assets/images/gallery/17.jpg',
     'assets/images/gallery/1.jpg',
     'assets/images/gallery/2.jpg',
     'assets/images/gallery/3.jpg',
@@ -21,11 +26,6 @@ export class GalleryComponent {
     'assets/images/gallery/10.jpg',
     'assets/images/gallery/11.jpg',
     'assets/images/gallery/12.jpg',
-    'assets/images/gallery/13.png',
-    'assets/images/gallery/14.jpg',
-    'assets/images/gallery/15.png',
-    'assets/images/gallery/16.jpg',
-    'assets/images/gallery/17.jpg',
   ];
 
   moveTo(direction: 'prev' | 'next'): void {
