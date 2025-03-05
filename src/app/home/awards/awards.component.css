@@ -1,0 +1,25 @@
+.awards-container {
+    background: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+
+.awards-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.awards-content p {
+    font-size: 1rem;
+    color: #333; /* Dark grey for readability */
+    margin-bottom: 1rem;
+}
+
+.award-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #9e1f63; /* Reddish-orange for highlighting */
+    margin-top: 1.2rem;
+}

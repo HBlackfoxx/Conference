@@ -13,6 +13,7 @@ export class ScientificComponent implements OnInit {
     'Aggour Abdelmounaim | EST, UIZ',
     'Ahlaqqach Mustapha | ESITH Casablanca',
     'Allaoui Ali | EST Beni Mellal, USMS',
+    'Aloui Adel | Istec Business School Paris',
     'Azougaghe Ali | ENSA Marrakech, UCA',
     'Behlouli Mohamed |Ibn Tofail University',
     'Behrendt Fabian | Magdeburg-Stendal University of Applied Sciences, Germany',
