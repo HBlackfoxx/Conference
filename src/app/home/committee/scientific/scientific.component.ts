@@ -47,7 +47,6 @@ export class ScientificComponent implements OnInit {
     'Hamani Nadia | University of Picardie Jules Verne, Amiens, France',
     'Hadj-Hamou Khaled | INSA Lyon',
     'Hassini Elkafi  | DeGroote School of Business, McMaster University, Canada',
-    'Hatim Anas| ENSA Marrakech, UCA',
     'Jawab Fouad | EST Fez, usmba',
     'Jay Daniel | Derby Business School at the University of Derby, England, UK',
     'Jayaraman Raja | New Mexico State University, Las Cruces, NM USA',
