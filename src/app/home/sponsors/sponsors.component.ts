@@ -18,5 +18,6 @@ export class SponsorsComponent {
     { name: 'Sponsor 3', imageUrl: '/assets/images/partners/aminov.webp', link: '#'},
     { name: 'Sponsor 4', imageUrl: '/assets/images/partners/Lartid.jpg', link: 'https://ensa-marrakech.uca.ma/' },
     { name: 'Sponsor 5', imageUrl: '/assets/images/partners/Blockhat.png', link: 'https://blockhat.io/' },
+    { name: 'Sponsor 5', imageUrl: '/assets/images/partners/safran.png', link: 'https://www.safran-group.com/' },
   ];
 }
