@@ -1,25 +1,26 @@
-<main id="content" class="site-main">
-    <div class="carrer-page-section" id="partners">
-        <div class="container">
-            <div class="about-service-wrap">
-                <div class="row" data-aos="fade" data-aos-duration="1000" data-aos-offset="850">
-                    <div class="section-heading text-center">
-                        <h5 class="dash-style">Our PARTNERS</h5>
-                    </div>
-                </div>
-                <div class="row sponsor-row text-center" data-aos="fade-zoom-in" data-aos-duration="1500" data-aos-offset="850">
-                    <div class="col-lg-2 col-md-4 sponsor-col" *ngFor="let sponsor of sponsors">
-                        <a [href]="sponsor.link">
-                            <img [src]="sponsor.imageUrl" alt="{{ sponsor.name }}" class="sponsor-img">
-                        </a>
-                    </div>
-                </div>
+<!-- sponsors.component.html -->
+<section class="sponsors-section">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h5 class="dash-style">NOS PARTENAIRES</h5>
+      </div>
+      
+      <div class="sponsors-slider">
+        <div class="sponsors-track">
+          <ng-container *ngFor="let sponsor of allSponsors">
+            <div class="sponsor-item">
+              <a [href]="sponsor.link" target="_blank" rel="noopener noreferrer">
+                <img [src]="sponsor.imageUrl" [alt]="sponsor.name" class="sponsor-logo">
+              </a>
             </div>
-            <div class="become-sponsor">
-                <a href="mailto:t.benazzouz@uca.ac.ma?subject=Become%20a%20Sponsor" class="button-secondary">
-                  Become a Sponsor
-                </a>
-            </div>   
-        </div>       
+          </ng-container>
+        </div>
+      </div>
+      
+      <div class="become-sponsor">
+        <a href="mailto:t.benazzouz@uca.ac.ma?subject=Become%20a%20Sponsor" class="button-secondary">
+          Devenir Sponsor
+        </a>
+      </div>
     </div>
-</main>
+  </section>

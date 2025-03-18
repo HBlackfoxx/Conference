@@ -1,58 +1,114 @@
+/* sponsors.component.css */
 .sponsors-section {
+  padding: 40px 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.dash-style {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.dash-style:after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background-color: #007bff;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sponsors-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
   padding: 20px 0;
-  background-color: #fff; 
-  text-align: center;
 }
 
-.row {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.sponsors-track {
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  width: max-content;
+  animation: scrollContinuous 18s linear infinite;
 }
 
-.col-auto {
+.sponsor-item {
+  flex: 0 0 auto;
+  margin: 0 30px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
 }
 
-.sponsor-img {
-  max-height: 150px;
+.sponsor-logo {
+  height: 120px;
   width: auto;
-  margin: 0 15px;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
-.sponsor-img:hover {
-  transform: scale(1.05);
+.sponsor-logo:hover {
+  transform: scale(1.1);
 }
 
 .become-sponsor {
-  display: flex;
-  justify-content: center;
-  margin: 30px;
+  margin-top: 40px;
+  text-align: center;
 }
 
+.button-secondary {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.button-secondary:hover {
+  background-color: #0056b3;
+}
+
+@keyframes scrollContinuous {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% / 3));
+  }
+}
+
+.sponsors-track:hover {
+  animation-play-state: paused;
+}
 
 @media (max-width: 768px) {
   .sponsor-logo {
-    max-height: 80px;
-    margin: 10px 15px; 
+    height: 100px;
+  }
+  
+  .sponsor-item {
+    margin: 0 20px;
   }
 }
 
 @media (max-width: 576px) {
   .sponsor-logo {
-    max-width: 200px;
-    max-height: 60px;
-    margin: 5px 10px; 
+    height: 80px;
   }
-  .sponsor-img {
-    margin: 10px; 
-    max-width: 200px;
+  
+  .sponsor-item {
+    margin: 0 15px;
   }
-
-
 }
