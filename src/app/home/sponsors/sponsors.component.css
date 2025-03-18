@@ -38,7 +38,7 @@
 .sponsors-track {
   display: flex;
   width: max-content;
-  animation: scrollContinuous 18s linear infinite;
+  animation: scrollContinuous 20s linear infinite;
 }
 
 .sponsor-item {

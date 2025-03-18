@@ -24,6 +24,8 @@ export class SponsorsComponent implements OnInit {
     { name: 'Clarivate', imageUrl: '/assets/images/partners/Clarivate.jpg', link: 'https://clarivate.com/' },
     { name: 'Scopus', imageUrl: '/assets/images/partners/Scopus.jpg', link: 'https://www.elsevier.com/fr-fr/products/scopus' },
     { name: 'SDFM', imageUrl: '/assets/images/partners/SDFM.jpg', link: 'https://www.sdfmlogistics.com/' },
+    { name: 'UDerby', imageUrl: '/assets/images/partners/Derby.jpg', link: 'https://www.derby.ac.uk/' },
+    { name: 'JIMO', imageUrl: '/assets/images/partners/Journal.jpg', link: 'https://www.aimsciences.org/jimo' },
   ];
   
   allSponsors: Sponsor[] = [];
