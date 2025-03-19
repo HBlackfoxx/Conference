@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class SpeakersComponent {
   speakers = [
     { name: 'Dr. Jay Daniel', 
-      role: 'Professor of Digital Supply Chain and Technology Innovation | Reasearch Cluster Lead at thee Center for Supply CHain Improvement | Derby Business School, University of Derby, United Kingdom', 
+      role: 'Professor of Digital Supply Chain and Technology Innovation | Reasearch Cluster Lead at the Center for Supply Chain Improvement | Derby Business School, University of Derby, United Kingdom', 
       imageUrl: 'assets/images/speakers/speaker1.jpg', 
       description: 'Talk: Digital Supply Chain and Blockchain Technology: How to Unblock the Chain'
     },
