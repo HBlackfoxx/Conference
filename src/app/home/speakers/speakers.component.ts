@@ -23,7 +23,7 @@ export class SpeakersComponent {
       description: 'Talk: Industrial Ergonomics in Aerospace: Enhancing Performance, Safety, and Operator Well-being in Advanced Manufacturing Environments.'
     },
     { name: 'Mr. Said ZARGUAN', 
-      role: 'Logistics Manager at SDFM Logistics, Morocco.', 
+      role: 'Logistics & Transportation Expert | Logistics Project Manager (Maturity Systems, Digitalization, ERP, Operations Implementation…) | Supply Chain Security Consultant ISO 28000 & AEO SS (SAFE) | Logistics Manager at SDFM LOGISTICS, Tangier, Morocco', 
       imageUrl: 'assets/images/speakers/Speaker4.jpg', 
       description: 'Talk: Certification and Labeling Standards: Their Impact on the Maturity Level of Industrial and Logistics Systems as Prerequisites for the Governance of Sustainable Digital Transformation in Automotive and Aeronautical Supply Chains.'
     },
