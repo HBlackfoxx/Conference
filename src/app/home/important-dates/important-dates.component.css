@@ -3,6 +3,8 @@
     padding: 40px 0;
   }
 
+
+  
   .date-crossed-out {
     text-decoration: line-through;
     color: #2a2a2a;
@@ -46,6 +48,24 @@
     font-size: 20px;
   }
 
+.awards-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.awards-content p {
+    font-size: 1rem;
+    color: #333; /* Dark grey for readability */
+    margin-bottom: 1rem;
+}
+  
+.award-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: red; /* Reddish-orange for highlighting */
+  margin-top: 1.2rem;
+}
   .date-info {
     color: #2a2a2a;
     font-weight: 700;
