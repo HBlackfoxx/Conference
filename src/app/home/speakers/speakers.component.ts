@@ -15,7 +15,7 @@ export class SpeakersComponent {
     { name: 'Dr. Guilherme F.Frederico', 
       role: 'Professor of Operations, Supply Chain and Project Management at Federal University of Parana - UFPR - School of Management, Curitiba, Brazil', 
       imageUrl: 'assets/images/speakers/Speaker2.jpg', 
-      description: 'Talk: Supply Chain 4.0: An strategic approach'
+      description: 'Talk: Supply Chain 4.0: A strategic approach'
     },
     { name: 'Mr. Hicham Bensghir', 
       role: 'Ergonomist | Specialist in Human and Organizational Factors and Human-Machine Interaction, Safran.', 
