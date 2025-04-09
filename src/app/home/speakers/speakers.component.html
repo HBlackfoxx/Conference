@@ -1,34 +1,48 @@
 <section id="speakers-section">
   <div class="section-heading">
     <div class="row no-gutters align-items-end">
-        <div class="row">
-            <div class="section-heading text-center" data-aos="fade" data-aos-duration="1000">
-                <h5 class="dash-style">Our Speakers</h5>
-            </div>
+      <div class="row">
+        <div class="section-heading text-center" data-aos="fade" data-aos-duration="1000">
+          <h5 class="dash-style">Our Speakers</h5>
         </div>
+      </div>
     </div>
   </div>
+
   <div class="container speaker-section" data-aos="fade-zoom-in" data-aos-duration="1500">
-      <div class="row">
-        <div class="col-md-3" *ngFor="let speaker of speakers">
-          <div class="speaker-card">
-            <div class="speaker-image">
-              <img [src]="speaker.imageUrl" alt="{{ speaker.name }}">
-            </div>
-            <div class="speaker-info">
-              <h3>{{ speaker.name }}</h3>
-              <p class="speaker-role">{{ speaker.role }}</p>
-            </div>
-            <div class="speaker-overlay">
-              <p class="speaker-description">{{ speaker.description }}</p>
-            </div>
+    <!-- Loop through the visible speaker rows -->
+    <div class="row mb-4" *ngFor="let speakerRow of speakerRows.slice(0, visibleRows); let i = index" 
+         [attr.data-aos]="'fade-up'" 
+         [attr.data-aos-delay]="i * 200">
+      <!-- Loop through speakers in the current row -->
+      <div class="col-md-3" *ngFor="let speaker of speakerRow">
+        <div class="speaker-card">
+          <div class="speaker-image">
+            <img [src]="speaker.imageUrl" alt="{{ speaker.name }}">
+          </div>
+          <div class="speaker-info">
+            <h3>{{ speaker.name }}</h3>
+            <p class="speaker-role">{{ speaker.role }}</p>
+          </div>
+          <div class="speaker-overlay">
+            <p class="speaker-description">{{ speaker.description }}</p>
           </div>
         </div>
       </div>
-  </div>    
+    </div>
+
+    <!-- Load More Button, only shown if there are more rows to display -->
+    <div class="text-center mt-4 mb-5" *ngIf="hasMoreRows">
+      <button (click)="loadMoreRows()" class="btn btn-primary load-more-btn" data-aos="fade-up">
+        <span>Load More Speakers</span>
+        <i class="fas fa-chevron-down ml-2"></i>
+      </button>
+    </div>
+  </div>
+
   <div class="become-speaker">
-    <a href="mailto:t.benazzouz@uca.ac.ma?subject=Become%20a%20Speaker" class="button-secondary">
+    <a href="mailto:sil25@uca.ac.ma?subject=Become%20a%20Speaker" class="button-secondary">
       Become a Speaker
     </a>
-  </div>   
+  </div>
 </section>

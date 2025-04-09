@@ -1,4 +1,35 @@
-.speaker-section {
+/* Add this to your speakers.component.css file */
+.load-more-btn {
+  padding: 10px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.load-more-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.load-more-btn:focus {
+  outline: none;
+}
+
+.load-more-btn i {
+  transition: transform 0.3s ease;
+}
+
+.load-more-btn:hover i {
+  transform: translateY(3px);
+}
+
+
+  .speaker-section {
     padding: 20px 0;
   }
   
