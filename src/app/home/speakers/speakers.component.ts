@@ -21,6 +21,12 @@ export class SpeakersComponent implements OnInit {
       description: 'Talk: Digital Supply Chain and Blockchain Technology: How to Unblock the Chain'
     },
     { 
+      name: 'Mrs. Hind GUENDOUL', 
+      role: 'Innovation and New Services Manager at Safran Engineering Services | Digital Transformation Consultant | Former Quality and Project Transfer Manager in the automotive and aerospace sectors.', 
+      imageUrl: 'assets/images/speakers/Speaker6.jpg', 
+      description: 'Talk: Bridging Strategy, Technology, and Operations: A Roadmap for Digital Transformation in Industrial Ecosystems'
+    },
+    { 
       name: 'Dr. Guilherme F.Frederico', 
       role: 'Professor of Operations, Supply Chain and Project Management at Federal University of Parana - UFPR - School of Management, Curitiba, Brazil', 
       imageUrl: 'assets/images/speakers/Speaker2.jpg', 
