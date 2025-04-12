@@ -40,7 +40,7 @@ export class SpeakersComponent implements OnInit {
     },
     { 
       name: 'Mr. Salaheddine AIT OUAKRIM', 
-      role: 'Deputy General Manager - Chief Commercial Director in Buildings & Logistics | Logistics & Supply Chain Expert | End-to-End Logistics | Digital Transformation | Sustainability', 
+      role: 'Deputy General Manager - Chief Commercial Director in Buildings & Logistics Services  | Logistics & Supply Chain Expert | End-to-End Logistics | Digital Transformation | Sustainability', 
       imageUrl: 'assets/images/speakers/Speaker5.jpg', 
       description: 'Talk: Supply Chain Digitalization: Interface Challenges and Data Governance Complexity'
     },
