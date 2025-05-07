@@ -46,9 +46,21 @@ export class SpeakersComponent implements OnInit {
     },
     { 
       name: 'Mr. Salaheddine AIT OUAKRIM', 
-      role: 'Deputy General Manager - Chief Commercial Director in Buildings & Logistics Services  | Logistics & Supply Chain Expert | End-to-End Logistics | Digital Transformation | Sustainability', 
+      role: 'Deputy General Manager - Chief Commercial Director in Buildings & Logistics Services | Logistics & Supply Chain Expert | End-to-End Logistics | Digital Transformation | Sustainability', 
       imageUrl: 'assets/images/speakers/Speaker5.jpg', 
       description: 'Talk: Supply Chain Digitalization: Interface Challenges and Data Governance Complexity'
+    },
+    { 
+      name: 'Mrs. Imane BOUMSISSE', 
+      role: 'Expert in Operational Excellence and Industry 5.0 integration in manufacturing sectors (Lean Six Sigma Master Black Belt, ISO Lead Auditor – QMS, EMS, OHSMS) | Expert in Industrial Performance, Digital Transformation & Sustainable Operations', 
+      imageUrl: 'assets/images/speakers/Speaker7.jpg', 
+      description: 'Talk: Enhancing Operational Excellence with Industry 5.0: Leveraging Human-Centric Technologies for Sustainable Performance'
+    },
+    { 
+      name: 'Mr. Mustapha AHAIK', 
+      role: 'Supply Chain & Strategic Purchasing Consultant | Associate Professor in Advanced Management & Business Environment | Automotive Industry Manager', 
+      imageUrl: 'assets/images/speakers/Speaker8.jpg', 
+      description: 'Talk: Global Supply Chain Strategies in the Automotive Industry: Adapting to Geopolitical Shifts and Trade Disruptions'
     },
   ];
 
